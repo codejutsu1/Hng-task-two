@@ -35,15 +35,17 @@ class PersonController extends Controller
      */
     public function show(Person $person)
     {
-        return $this->success(['persons' => new PersonResource($person)]);
+        return $this->success(['person' => new PersonResource($person)]);
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Person $person)
+    public function update(StorePersonRequest $request, Person $person)
     {
-        //
+        $person->update($request->validated());
+
+        return $this->success(['person' => new PersonResource($person)]);
     }
 
     /**
@@ -51,6 +53,8 @@ class PersonController extends Controller
      */
     public function destroy(Person $person)
     {
-        //
+        $person->delete();
+
+        return response(null, 204);
     }
 }
