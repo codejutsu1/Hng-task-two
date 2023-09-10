@@ -4,15 +4,18 @@ namespace App\Http\Controllers;
 
 use App\Models\Person;
 use Illuminate\Http\Request;
+use App\Traits\HttpResponses;
+use App\Http\Resources\PersonCollection;
 
 class PersonController extends Controller
 {
+    use HttpResponses;
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        //
+        return PersonCollection(Person::all());
     }
 
     /**
