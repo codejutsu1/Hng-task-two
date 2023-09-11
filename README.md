@@ -60,7 +60,7 @@ An API that dynamically handle parameters, such as adding, retrieving, updating 
 
 # SAMPLE USAGE
 
-## - POST Update a person
+## - POST create a person
 
     yourapp.com/api/1
 
@@ -85,7 +85,28 @@ An API that dynamically handle parameters, such as adding, retrieving, updating 
         "status_code": 201
     }
 
-## - POST create a person
+## - GET get a person
+
+    yourapp.com/api/1
+
+### REQUEST HEADERS
+
+    Accept                application/json
+
+### Response
+
+    {
+        "message": "Request was successful.",
+        "data": {
+            "persons": {
+                "id": 1,
+                "name": "Daniel"
+            }
+        },
+        "status_code": 200
+    }
+
+## - PUT update a person
 
     yourapp.com/api
 
