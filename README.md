@@ -25,5 +25,17 @@ An API that dynamically handle parameters, such as adding, retrieving, updating 
 
 ### UML and E-R Diagrams
 
-<p align="center"><img src="public/uml/api2.png" width="860"></p>
-<p align="center"><img src="public/uml/api3.png" width="860"></p>
+<p align="center"><img src="public/uml/api2.png" width="500"></p>
+<p align="center"><img src="public/uml/api3.png" width="500"></p>
+
+##API DOCUMENTATION
+
+## FORMATS FOR EACH ENDPOINT
+
+### CREATE A PERSON
+
+        {
+            "status" : "Request was successful",
+            "message" : "",
+            "data" : ""
+        }
