@@ -1,4 +1,4 @@
-# Rest API CRUD Operation on "Person"
+# REST API CRUD Operation on "Person"
 An API that dynamically handle parameters, such as adding, retrieving, updating or deleting a person by user_id (CRUD operation).
 
 ## HOW TO SET UP THIS PROJECT IN YOUR LOCAL MACHINE
@@ -16,3 +16,14 @@ An API that dynamically handle parameters, such as adding, retrieving, updating 
     
     Get the local url ie localhost:8000/api
     test using tools like postman
+
+## ABOUT THE PROJECT
+
+### API Source Code 
+
+    https://sourcecode.api.ng
+
+### UML and E-R Diagrams
+
+<p align="center"><img src="public/uml/api2.png" width="860"></p>
+<p align="center"><img src="public/uml/api3.png" width="860"></p>
