@@ -19,4 +19,10 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::apiResource('persons', PersonController::class);
+Route::controller(PersonController::class)->group(function() {
+    Route::get('/', 'index');
+    Route::post('/', 'store');
+    Route::get('/{person}', 'show');
+    Route::put('/{person}', 'update');
+    Route::delete('/{person}', 'destroy');
+});

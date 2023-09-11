@@ -12,17 +12,13 @@ use App\Http\Requests\StorePersonRequest;
 class PersonController extends Controller
 {
     use HttpResponses;
-    /**
-     * Display a listing of the resource.
-     */
+    
     public function index()
     {
         return new PersonCollection(Person::all());
     }
 
-    /**
-     * Store a newly created resource in storage.
-     */
+    
     public function store(StorePersonRequest $request)
     {
         $person = Person::create($request->validated());
