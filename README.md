@@ -58,12 +58,29 @@ An API that dynamically handle parameters, such as adding, retrieving, updating 
 
     {null}
 
-## SAMPLE USAGE
+# SAMPLE USAGE
 
-## POST create a persom
+## - POST create a person
 
     yourapp.com/api
 
 ### REQUEST HEADERS
 
     Accept                application/json
+
+### BODY (form data)
+
+    name                  Daniel
+
+### Response
+
+    {
+        "message": "Request was successful.",
+        "data": {
+            "persons": {
+                "id": 1,
+                "name": "Daniel"
+            }
+        },
+        "status_code": 201
+    }
