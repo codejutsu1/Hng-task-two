@@ -21,7 +21,7 @@ An API that dynamically handle parameters, such as adding, retrieving, updating 
 
 ### API Source Code 
 
-    https://sourcecode.api.ng
+    https://github.com/codejutsu1/Hng-task-two
 
 ### UML and E-R Diagrams
 
@@ -34,8 +34,28 @@ An API that dynamically handle parameters, such as adding, retrieving, updating 
 
 ### CREATE A PERSON
 
-        {
-            "status" : "Request was successful",
-            "message" : "",
-            "data" : ""
-        }
+    {
+        "message" : "Request was successful",
+        "data" : {}, 
+        "status_code" : 201,
+    }
+
+### READ A PERSON
+
+    {
+        "message" : "Request was successful",
+        "data" : {}, 
+        "status_code" : 200,
+    }
+
+### UPDATE A PERSON
+
+    {
+        "message" : "Request was successful",
+        "data" : {}, 
+        "status_code" : 200,
+    }
+
+### DELETE A PERSON
+
+    {null}
