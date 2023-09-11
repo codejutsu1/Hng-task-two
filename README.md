@@ -7,15 +7,15 @@ An API that dynamically handle parameters, such as adding, retrieving, updating 
 
     clone this repository to your local machine
     run composer update && composer dump-autoload on your terminal
-    run php artisan key:generate && php artisan migrate terminal
+    run php artisan key:generate && php artisan migrate on your terminal
     Transfer all content in .env.example to a new file .env
     configure the .env
     Then run php artisan serve to serve the application on local machine
 
 ### Testing the API
     
-    Get the local url ie localhost:8000/api
-    test using tools like postman
+    Get the local URL ie localhost:8000/api
+    Test using tools like postman
 
 ## ABOUT THE PROJECT
 
@@ -27,8 +27,6 @@ An API that dynamically handle parameters, such as adding, retrieving, updating 
 
 <p align="center"><img src="public/uml/api2.png" width="500"></p>
 <p align="center"><img src="public/uml/api3.png" width="500"></p>
-
-##API DOCUMENTATION
 
 ## FORMATS FOR EACH ENDPOINT
 
@@ -59,3 +57,13 @@ An API that dynamically handle parameters, such as adding, retrieving, updating 
 ### DELETE A PERSON
 
     {null}
+
+## SAMPLE USAGE
+
+## POST create a persom
+
+    yourapp.com/api
+
+### REQUEST HEADERS
+
+    Accept                application/json
