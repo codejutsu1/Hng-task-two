@@ -60,9 +60,9 @@ An API that dynamically handle parameters, such as adding, retrieving, updating 
 
 # SAMPLE USAGE
 
-## - POST create a person
+## - POST Update a person
 
-    yourapp.com/api
+    yourapp.com/api/1
 
 ### REQUEST HEADERS
 
@@ -83,4 +83,29 @@ An API that dynamically handle parameters, such as adding, retrieving, updating 
             }
         },
         "status_code": 201
+    }
+
+## - POST create a person
+
+    yourapp.com/api
+
+### REQUEST HEADERS
+
+    Accept                application/json
+
+### BODY (urlencoded)
+
+    name                  James
+
+### Response
+
+    {
+        "message": "Request was successful.",
+        "data": {
+            "persons": {
+                "id": 1,
+                "name": "James"
+            }
+        },
+        "status_code": 200
     }
