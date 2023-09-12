@@ -109,7 +109,7 @@ An endpoint to get a single person. The endpoint, api/user_id accepts integer as
     }
 
 ## - PUT update a person
-This endpoint is responsible for updating a person's record. The endpoint api/user_id, accepts an integer as a user_id and the person must exist in the database.
+This endpoint is responsible for updating a person's record. The endpoint api/user_id, accepts an integer as the user_id and the person must exist in the database.
 
     yourapp.com/api/1
 
