@@ -27,7 +27,7 @@ An API that dynamically handle parameters, such as adding, retrieving, updating 
 
 <p align="center"><img src="public/uml/api1.png" width="500"></p>
 <p align="center"><img src="public/uml/api2.png" width="500"></p>
-<p align="center"><img src="public/uml/api3.png" width="500"></p>
+<p align="center"><img src="public/uml/api5.png" width="500"></p>
 
 ## STANDARD FORMATS FOR EACH ENDPOINT
 
