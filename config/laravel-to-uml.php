@@ -4,7 +4,7 @@ return [
     /**
      * Default route to see the UML diagram.
      */
-    'route' => '/uml',
+    'route' => '/uml-route',
     
     /**
      * You can turn on or off the indexing of specific types
