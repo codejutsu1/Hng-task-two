@@ -61,7 +61,7 @@ An API that dynamically handle parameters, such as adding, retrieving, updating 
 # SAMPLE USAGE
 
 ## - POST create a person
-An endpoint to create a new person. It only required one parameter "name" and it must be a string.
+An endpoint to create a new person. It only requires one parameter "name" and it must be a string.
 
     yourapp.com/api
 
@@ -87,6 +87,7 @@ An endpoint to create a new person. It only required one parameter "name" and it
     }
 
 ## - GET get a person
+An endpoint to get a single person. The endpoint, api/user_id accepts integer as a parameter and the person must exist in the database.
 
     yourapp.com/api/1
 
@@ -108,6 +109,7 @@ An endpoint to create a new person. It only required one parameter "name" and it
     }
 
 ## - PUT update a person
+This endpoint is responsible for updating a person's record. The endpoint api/user_id, accepts an integer as a user_id and the person must exist in the database.
 
     yourapp.com/api/1
 
