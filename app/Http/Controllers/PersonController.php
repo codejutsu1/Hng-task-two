@@ -23,7 +23,7 @@ class PersonController extends Controller
     {
         $person = Person::create($request->validated());
 
-        return $this->success(['persons' => new PersonResource($person)], '', 201);
+        return $this->success([new PersonResource($person)], '', 201);
     }
 
     /**
@@ -31,7 +31,7 @@ class PersonController extends Controller
      */
     public function show(Person $person)
     {
-        return $this->success(['person' => new PersonResource($person)]);
+        return $this->success([new PersonResource($person)]);
     }
 
     /**
@@ -41,7 +41,7 @@ class PersonController extends Controller
     {
         $person->update($request->validated());
 
-        return $this->success(['person' => new PersonResource($person)]);
+        return $this->success([new PersonResource($person)]);
     }
 
     /**

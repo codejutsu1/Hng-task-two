@@ -28,7 +28,7 @@ An API that dynamically handle parameters, such as adding, retrieving, updating 
 <p align="center"><img src="public/uml/api2.png" width="500"></p>
 <p align="center"><img src="public/uml/api3.png" width="500"></p>
 
-## FORMATS FOR EACH ENDPOINT
+## STANDARD FORMATS FOR EACH ENDPOINT
 
 ### CREATE A PERSON
 
@@ -146,3 +146,5 @@ This endpoint is responsible for deleting a person's record. The endpoint api/us
 ### Response
 
     {}
+
+## TESTING
