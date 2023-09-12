@@ -64,7 +64,7 @@ An API that dynamically handle parameters, such as adding, retrieving, updating 
 ## - POST create a person
 An endpoint to create a new person. It only requires one parameter "name" and it must be a string.
 
-    yourapp.com/api
+    https://hng-task-two-production.up.railway.app/api
 
 ### REQUEST HEADERS
 
@@ -90,7 +90,7 @@ An endpoint to create a new person. It only requires one parameter "name" and it
 ## - GET get a person
 An endpoint to get a single person. The endpoint, api/user_id accepts integer as a parameter and the person must exist in the database.
 
-    yourapp.com/api/1
+    https://hng-task-two-production.up.railway.app/api/1
 
 ### REQUEST HEADERS
 
@@ -112,7 +112,7 @@ An endpoint to get a single person. The endpoint, api/user_id accepts integer as
 ## - PUT update a person
 This endpoint is responsible for updating a person's record. The endpoint api/user_id, accepts an integer as the user_id and the person must exist in the database.
 
-    yourapp.com/api/1
+    https://hng-task-two-production.up.railway.app/api/1
 
 ### REQUEST HEADERS
 
@@ -138,7 +138,7 @@ This endpoint is responsible for updating a person's record. The endpoint api/us
 ## - DELETE delete a person
 This endpoint is responsible for deleting a person's record. The endpoint api/user_id, accepts an integer as the user_id and the person must exist in the database.
 
-    yourapp.com/api/1
+    https://hng-task-two-production.up.railway.app/api/1
 
 ### REQUEST HEADERS
 
