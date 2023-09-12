@@ -108,7 +108,7 @@ An API that dynamically handle parameters, such as adding, retrieving, updating 
 
 ## - PUT update a person
 
-    yourapp.com/api
+    yourapp.com/api/1
 
 ### REQUEST HEADERS
 
