@@ -14,7 +14,7 @@ An API that dynamically handle parameters, such as adding, retrieving, updating 
 
 ### Testing the API
     
-    Get the local URL ie localhost:8000/api
+    Get the local URL eg localhost:8000/api
     Test using tools like postman
 
 ## ABOUT THE API
@@ -133,3 +133,16 @@ This endpoint is responsible for updating a person's record. The endpoint api/us
         },
         "status_code": 200
     }
+
+## - DELETE delete a person
+This endpoint is responsible for deleting a person's record. The endpoint api/user_id, accepts an integer as the user_id and the person must exist in the database.
+
+    yourapp.com/api/1
+
+### REQUEST HEADERS
+
+    Accept                application/json
+
+### Response
+
+    {}
