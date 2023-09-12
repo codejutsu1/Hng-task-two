@@ -150,4 +150,4 @@ This endpoint is responsible for deleting a person's record. The endpoint api/us
 
 ## TESTING
 
-<a href="https://documenter.getpostman.com/view/29425162/2s9YC32EZv">Click here to see more about the documentation</a>
+<a target="_blank" href="https://documenter.getpostman.com/view/29425162/2s9YC32EZv">Click here to see more about the documentation</a>
