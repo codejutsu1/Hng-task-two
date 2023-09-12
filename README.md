@@ -17,7 +17,7 @@ An API that dynamically handle parameters, such as adding, retrieving, updating 
     Get the local URL ie localhost:8000/api
     Test using tools like postman
 
-## ABOUT THE PROJECT
+## ABOUT THE API
 
 ### API Source Code 
 
@@ -61,8 +61,9 @@ An API that dynamically handle parameters, such as adding, retrieving, updating 
 # SAMPLE USAGE
 
 ## - POST create a person
+An endpoint to create a new person. It only required one parameter "name" and it must be a string.
 
-    yourapp.com/api/1
+    yourapp.com/api
 
 ### REQUEST HEADERS
 
